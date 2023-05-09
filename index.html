@@ -10,11 +10,13 @@
   </head>
   <body>
     <div class="inner">
-      <h1>TO DO LIST</h1>
-      <form>
+      <h1 class="todo-title">TO DO LIST</h1>
+      <form class="todo-inputWrapper">
         <input type="text" id="js-input" />
-        <button id="js-button">Add</button>
+        <button type="button" id="js-button">Add</button>
       </form>
+      <h2 class="todo-listTitle">Current Tasks</h2>
+      <ul id="js-list" class="todo-list"></ul>
     </div>
     <script src="app.js"></script>
   </body>

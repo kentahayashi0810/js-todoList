@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+body {
+  font-family: "Noto Sans";
+}
+.inner {
+  max-width: calc(900px + 10%);
+  padding: 0 5%;
+  margin: 0 auto;
+}
+
+.todo-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.todo-inputWrapper {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.todo-list {
+  border-radius: 10px;
+  background-color: beige;
+}
+.todo-listTitle {
+  list-style: none;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
