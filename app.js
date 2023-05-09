@@ -24,7 +24,11 @@ const deleteTask = (deleteButton) => {
 
 button.addEventListener("click", (e) => {
   const value = input.value;
-  // e.preventDefault();
-  addTask(value);
-  input.value = "";
+  if (!value) {
+    alert("Please enter your task.");
+  } else {
+    e.preventDefault();
+    addTask(value);
+    input.value = "";
+  }
 });
